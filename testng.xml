@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite data-provider-thread-count="3" parallel="methods" name="SmartStoreSuite">
+<suite data-provider-thread-count="2" parallel="methods" name="SmartStoreSuite">
   <test name="SmartStoreTest">
     <classes>
       <class name="com.smartstore.test.TestRunner"/>
